@@ -4,7 +4,7 @@
       <img src="https://raw.githubusercontent.com/matheusalrg/assets/main/HelloWorld.gif" width="180">
     </td>
     <td valign="top">
-      <h2>📝 Tarefa</h2>
+      <h2>📝 Tarefa 01 </h2>
       <p>Escreva um programa em C que simule o personagem perdendo um pouco de vida e depois coletando um item de "power-up" que a restaura.</p>
     </td>
   </tr>
