@@ -10,7 +10,7 @@
   </tr>
 </table>
 
-## ❗Problema: A Plataforma Secreta e o Tesouro
+## ❗Problema: A Plataforma Secreta e o Tesouro 🪙
 
   - **Contexto:** *Imagine que você está desenvolvendo um jogo de plataforma 2D. O seu personagem, um aventureiro, precisa pular entre plataformas para coletar tesouros. Existe uma "plataforma secreta" no jogo. Quando o personagem pisa nela, um tesouro especial aparece em outro lugar do mapa.
 Para que o jogo saiba onde criar o tesouro, a "plataforma secreta" não guarda o valor do tesouro, mas sim o endereço de memória exato de onde o tesouro deve aparecer. Desta forma, o jogo pode modificar diretamente a variável que representa o local do tesouro, tornando a operação muito rápida.*
