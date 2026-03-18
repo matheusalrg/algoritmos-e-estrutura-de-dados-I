@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/Hello World.gif" width="600">
+</p>
+
 ## 📝 Tarefa
 
 Escreva um programa em C que simule o personagem perdendo um pouco de vida e depois coletando um item de **"power-up"** que a restaura.
