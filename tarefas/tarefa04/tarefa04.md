@@ -34,4 +34,4 @@
   - Dentro da função, use o ponteiro para acessar o valor original da pontuação e multiplique-o por 2, atualizando o valor diretamente na memória.
 
 
-📌 **Resposta:** [💻 Ver solução em C]()
+📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/5b776fa0753f945d362747273390c4a17e55240b/tarefas/tarefa04/tarefa04.c)
