@@ -17,3 +17,5 @@ Escreva um programa em C que simule o personagem perdendo um pouco de vida e dep
   - Use o Power-up: Simule a coleta do item. (ponteiro_vida), restaure a vida do jogador para 100. (Dica: você precisará do operador de indireção *).  
 
   - Imprima a Restauração: Mostre na tela a vida do jogador após usar o "power-up". A saída deve ser: "Power-up coletado! Vida restaurada: 100"
+
+📌 **Resposta:** [Resposta](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/0a9d97bd4a34dd1beb8307b27a8df807d18fe115/tarefas/tarefa01/tarefa01.c)
