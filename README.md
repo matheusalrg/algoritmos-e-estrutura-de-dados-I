@@ -9,7 +9,7 @@
 #### Bacharelado Interdisciplinar em Tecnologia da Informação - UFERSA
 
 <p align="center">
-- Repositório criado para armazenar os repositórios desenvolvidos na disciplina de Algoritmos e Estrutura de Dados I.
+- Repositório destinado ao armazenamento dos conteúdos desenvolvidos na disciplina de Algoritmos e Estruturas de Dados I.
 </p>
 
 ## 👨‍🎓 Discente
