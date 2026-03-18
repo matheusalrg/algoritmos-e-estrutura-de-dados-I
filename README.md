@@ -22,8 +22,8 @@ Matheus Almeida Rigueira
 
 ## 📂 Estrutura do Repositório
 
-📁 tarefas       → Resolução das tarefas desenvolvidas no Google Classroom
-📁 projetos      → Projetos desenvolvidos na disciplina  
+📁 tarefas       → Resolução das tarefas desenvolvidas no Google Classroom <br>
+📁 projetos      → Projetos desenvolvidos na disciplina <br>
 📁 provas        → Exercícios ou simulados de provas  
 
 
