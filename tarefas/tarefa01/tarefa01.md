@@ -1,4 +1,4 @@
-<table align="left">
+<table>
   <tr>
     <td align="left">
       <img src="https://raw.githubusercontent.com/matheusalrg/assets/main/HelloWorld.gif" width="250">
