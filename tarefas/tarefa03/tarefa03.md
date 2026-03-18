@@ -10,7 +10,7 @@
   </tr>
 </table>
 
-## ❗Problema: O Portal de Teletransporte e as Coordenadas do Jogador 🪙
+## ❗Problema: O Portal de Teletransporte e as Coordenadas do Jogador 🗺️
 
   - **Contexto:** *Em um jogo de plataforma, o personagem pode encontrar portais mágicos. Quando o personagem entra em um portal, ele é instantaneamente teletransportado para a localização de outro portal correspondente no mapa. Para que o motor do jogo saiba para onde mover o jogador, ele precisa do endereço exato (as coordenadas X e Y) do portal de destino. Em vez de simplesmente copiar as coordenadas, o jogo trabalha diretamente com o "endereço" da localização do portal de destino para garantir que o teletransporte seja preciso.*
 
