@@ -1,7 +1,6 @@
-<table align="center">
+<table align="left">
   <tr>
     <td align="center">
-      <h2>👋 Hello World</h2>
       <img src="https://raw.githubusercontent.com/matheusalrg/assets/main/HelloWorld.gif" width="250">
     </td>
   </tr>
