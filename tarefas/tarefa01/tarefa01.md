@@ -26,4 +26,4 @@
 
   - Imprima a Restauração: Mostre na tela a vida do jogador após usar o "power-up". A saída deve ser: "Power-up coletado! Vida restaurada: 100"
 
-📌 📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/0a9d97bd4a34dd1beb8307b27a8df807d18fe115/tarefas/tarefa01/tarefa01.c)
+📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/0a9d97bd4a34dd1beb8307b27a8df807d18fe115/tarefas/tarefa01/tarefa01.c)
