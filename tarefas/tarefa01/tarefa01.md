@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../../../assets/HelloWorld.gif" width="600">
+  <img src="matheusalrg/assets/HelloWorld.gif" width="600">
 </p>
 
 ## 📝 Tarefa
