@@ -1,14 +1,14 @@
 <table>
   <tr>
-    <td align="left">
-      <img src="https://raw.githubusercontent.com/matheusalrg/assets/main/HelloWorld.gif" width="250">
+    <td width="220" valign="top">
+      <img src="https://raw.githubusercontent.com/matheusalrg/assets/main/HelloWorld.gif" width="180">
+    </td>
+    <td valign="top">
+      <h2>📝 Tarefa</h2>
+      <p>Escreva um programa em C que simule o personagem perdendo um pouco de vida e depois coletando um item de "power-up" que a restaura.</p>
     </td>
   </tr>
 </table>
-
-## 📝 Tarefa
-
-Escreva um programa em C que simule o personagem perdendo um pouco de vida e depois coletando um item de **"power-up"** que a restaura.
 
 ## 📋 Requisitos
 
