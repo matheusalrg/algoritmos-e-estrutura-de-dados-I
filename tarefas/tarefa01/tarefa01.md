@@ -1,6 +1,12 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/matheusalrg/assets/main/HelloWorld.gif" width="200">
-</p>
+<table align="center">
+  <tr>
+    <td align="center">
+      <h2>👋 Hello World</h2>
+      <img src="https://raw.githubusercontent.com/matheusalrg/assets/main/HelloWorld.gif" width="250"><br><br>
+      <sub><i>Bem-vindo ao meu repositório de Algoritmos e Estruturas de Dados I</i></sub>
+    </td>
+  </tr>
+</table>
 
 ## 📝 Tarefa
 
