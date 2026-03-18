@@ -1,14 +1,8 @@
-## 📝 Tarefa
-
-Escreva um programa em C que simule o personagem perdendo um pouco de vida e depois coletando um item de **"power-up"** que a restaura.
-
----
-
 ## 📋 Requisitos
 
 ## 📝 Tarefa
 
-Escreva um programa em C que simule o personagem perdendo um pouco de vida e depois coletando um item de "power-up" que a restaura.
+Escreva um programa em C que simule o personagem perdendo um pouco de vida e depois coletando um item de **"power-up"** que a restaura.
 
 ## 📋 Requisitos
 
