@@ -1,5 +1,3 @@
-// Acessando o conteúdo apontado por um ponteiro - operador de indireção
-
 #include <stdio.h>
 #include <locale.h>
 
