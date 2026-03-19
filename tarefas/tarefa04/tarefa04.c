@@ -1,5 +1,3 @@
-// Ponteiros como parâmetros de funções
-
 #include <stdio.h>
 #include <locale.h>
 
