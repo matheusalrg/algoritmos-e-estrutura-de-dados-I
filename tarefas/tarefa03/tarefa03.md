@@ -29,4 +29,4 @@
   - **Imprima o Endereço de Memória:** Mostre na tela o endereço de memória onde a coordenada está armazenada, simulando como o sistema de teletransporte "encontraria" o portal. A saída deve ser: "Endereco do portal para teletransporte: [endereco]" (use o especificador de formato %p).
 
 
-📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/0cbfd80d51d45c79f30e0aacd47c855fc6cdd0ea/tarefas/tarefa03/tarefa03.c)
+📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/e9a62bc998f4f9988a715dd2c0f1c9571d91be7f/tarefas/tarefa03/tarefa03.c)
