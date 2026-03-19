@@ -28,4 +28,4 @@
   - **Imprima a Pontuação Final:** Após simular a coleta das 3 moedas, mostre na tela a pontuação final. A saída deve ser: "Pontuacao final apos coletar 3 moedas: 30"
 
 
-📌 **Resposta:** [💻 Ver solução em C]()
+📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/66c8b43e34928fe9ed08c31706f2d51c6a7f2303/tarefas/tarefa05/tarefa05.c)
