@@ -1,4 +1,3 @@
-// Imprimindo um ponteiro
 #include <stdio.h>
 #include <locale.h>
 
