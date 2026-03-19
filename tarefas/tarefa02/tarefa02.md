@@ -27,4 +27,4 @@ Para que o jogo saiba onde criar o tesouro, a "plataforma secreta" não guarda o
 
   - **Verificação Final:** Após a ativação, imprima novamente o valor da variável tesouro_local para confirmar que ela foi alterada através do ponteiro. A saída deve ser: "O personagem pisou na plataforma secreta! O tesouro apareceu! Valor: 1"  
 
-📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/8f53dcbccc44a41b5d445b04b7bbeb104177bdfe/tarefas/tarefa02/tarefa02.c)
+📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/2e09e1e89f838f72b39079fc16028c995e1897fd/tarefas/tarefa02/tarefa02.c)
