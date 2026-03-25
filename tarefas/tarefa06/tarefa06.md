@@ -22,9 +22,7 @@ Sua tarefa é simular essa lógica, calculando a altura total que o jogador alca
     
   - **Variável de Altura:** Crie uma variável inteira chamada altura_total e inicialize-a com 0.
 
-  - **Loop com Aritmética de Ponteiros:** Mostre na tela a pontuação do jogador antes de coletar qualquer moeda. A saída deve ser: "Pontuacao inicial: 0"
-
-  - **Simule a Coleta:** Crie um laço for que itere por todas as plataformas do vetor. Dentro do laço, você deve usar aritmética de ponteiros para acessar o valor de impulso de cada plataforma e somá-lo à variável altura_total. **Dica:** Em vez de usar plataformas[i], acesse o valor usando a expressão *(plataformas + i).
+  - **Loop com Aritmética de Ponteiros:** Crie um laço for que itere por todas as plataformas do vetor. Dentro do laço, você deve usar aritmética de ponteiros para acessar o valor de impulso de cada plataforma e somá-lo à variável altura_total. **Dica:** Em vez de usar plataformas[i], acesse o valor usando a expressão *(plataformas + i).
     
   - **Imprima o Resultado:** Após o laço, mostre na tela a altura total alcançada. A saída deve ser exatamente: Altura total do salto: 80 metros!
 
