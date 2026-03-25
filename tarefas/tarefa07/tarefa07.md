@@ -39,4 +39,4 @@ O uso de ponteiros é essencial para que a função de leitura modifique o vetor
 
   - Imprima na tela o vetor do cenário já modificado, com os números separados por um espaço.
 
-📌 **Resposta:** [💻 Ver solução em C]()
+📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/8badae6ce879d94e28e3fa33f708db681d2d9513/tarefas/tarefa07/tarefa07.c)
