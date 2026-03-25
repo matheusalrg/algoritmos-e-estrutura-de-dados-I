@@ -29,4 +29,4 @@ Sua tarefa é simular essa lógica, calculando a altura total que o jogador alca
   - **Imprima o Resultado:** Após o laço, mostre na tela a altura total alcançada. A saída deve ser exatamente: Altura total do salto: 80 metros!
 
 
-📌 **Resposta:** [💻 Ver solução em C]()
+📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/cac1a48747eab9d186e19af332e46999b33aab99/tarefas/tarefa06/tarefa06.c)
