@@ -1,6 +1,9 @@
 #include <stdio.h>
+#include <locale.h>
 
 int main() {
+    setlocale(LC_ALL, "Portuguese");
+    
     // Vetor fase com 10 posições
     int fase[10] = {0, 1, 0, 0, 1, 1, 0, 1, 0, 0};
 
