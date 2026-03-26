@@ -10,6 +10,10 @@
   </tr>
 </table>
 
+## ❗Problema: O Power-up e a Vida do Jogador 🩸
+
+ - **Contexto:** *Em alguns jogos de plataforma. O personagem tem uma barra de vida que normalmente tem 100 pontos. Ao percorrer o cenário, existem itens de "power-up" que, quando coletados, restauraram completamente a vida do jogador, voltando-a para o valor máximo de 100. As função que implementam a lógica do "power-up" no motor dos jogos devem ser projetadas para ser muito eficiente. Para fazer isto em C, em vez de receber uma cópia da variável de vida, ela recebe a onde a vida do jogador está armazenada e a altera diretamente nesse local.*
+
 ## 📋 Requisitos
 
   - **Variável de Vida:** Crie uma variável inteira chamada vida_jogador e inicialize-a com o valor 100.  
