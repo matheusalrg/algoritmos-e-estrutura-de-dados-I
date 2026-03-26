@@ -5,9 +5,9 @@ int main() {
     setlocale(LC_ALL, "Portuguese");
 
     // Vetores de munição com tamanho 2 (posição 0 = atual, posição 1 = máximo)
-    int balas[2] = {30, 60};
-    int granadas[2] = {5, 10};
-    int foguetes[2] = {2, 4};
+    int balas[2] = {30, 30};
+    int granadas[2] = {5, 5};
+    int foguetes[2] = {2, 2};
 
     // Vetor de ponteiros chamado inventario para gerenciar as munições
     int *inventario[3];
