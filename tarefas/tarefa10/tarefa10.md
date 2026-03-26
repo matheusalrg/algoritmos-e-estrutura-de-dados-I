@@ -35,4 +35,4 @@ Moedas na Sala 3: 5 5 5 10
 
 (Dica: Para imprimir as moedas, crie um loop separado para cada sala. Dentro do loop da Sala 1, você pode obter seu tamanho com sizeof(sala_1) / sizeof(sala_1[0]), e assim por diante para as outras salas. Use o ponteiro_salas para acessar os valores. Caso queira fazer uma solução mais avançada, tente implementar uma forma de imprimir todas as moedas usando um único loop for que itera de 0 a 2)
     
-📌 **Resposta:** [💻 Ver solução em C]()
+📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/cd892d0a293b0e5c434c3998fa9e224de556dbfd/tarefas/tarefa10/tarefa10.c)
