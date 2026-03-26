@@ -10,7 +10,7 @@
   </tr>
 </table>
 
-## ❗Coletando Moedas com Ponteiros 🪙
+## ❗Problema: Coletando Moedas com Ponteiros 🪙
 
   - **Contexto:** *Em um jogo de plataforma, o design de uma fase pode ser representado por um vetor, onde cada posição simboliza um bloco do cenário. Por exemplo, o número 0 pode ser um espaço vazio e 1 pode ser uma moeda. O personagem do jogador "caminha" por este vetor, e o jogo precisa verificar o que há em cada bloco para decidir o que fazer. Para otimizar o acesso a esses dados, muitos jogos usam ponteiros para percorrer as estruturas do cenário.*
 
