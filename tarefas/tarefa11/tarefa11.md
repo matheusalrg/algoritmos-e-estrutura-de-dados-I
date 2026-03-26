@@ -34,7 +34,7 @@ Sua tarefa é criar um sistema que gerencie esse inventário usando um vetor de 
 *Foguetes: 2* <br>
 
   - **Simule o Uso com Aritmética de Ponteiros:** Crie um laço de repetição (for) que percorra o inventario. Dentro do laço, use aritmética de ponteiros e o operador de indireção (*) para decrementar em 1 a quantidade atual (o primeiro elemento) de cada tipo de munição.
-Imprima o Estado Final: Mostre na tela a quantidade de cada munição após o uso, para confirmar que a alteração foi bem-sucedida. A saída deve ser:
+Imprima o Estado Final: Mostre na tela a quantidade de cada munição após o uso, para confirmar que a alteração foi bem-sucedida. A saída deve ser: <br>
 *Inventario Apos o Uso:* <br>
 *Balas: 29* <br>
 *Granadas: 4* <br>
