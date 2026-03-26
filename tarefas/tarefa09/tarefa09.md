@@ -33,4 +33,4 @@ Sua tarefa é criar um programa que simule o cálculo da pontuação total de um
     
   - **Imprimir o Resultado:** Após o laço terminar, imprima a pontuação final. A saída deve ser exatamente: Pontuação total do nível: 185
     
-📌 **Resposta:** [💻 Ver solução em C]()
+📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/76e50124cd6d82213a198fd7bb9014a007c877e1/tarefas/tarefa09/tarefa09.c)
