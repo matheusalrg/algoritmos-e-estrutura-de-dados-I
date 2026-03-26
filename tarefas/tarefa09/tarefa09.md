@@ -10,7 +10,7 @@
   </tr>
 </table>
 
-## ❗O Rastro de Moedas do Jogador 👣🎮
+## ❗Problema: O Rastro de Moedas do Jogador 👣🎮
 
   - **Contexto:** *Em um jogo de plataforma, nosso herói corre por um nível e coleta moedas. Cada moeda tem um valor diferente. Para otimizar o código do jogo, em vez de usar um índice para percorrer a lista de moedas coletadas, o motor do jogo usará um ponteiro. Isso permite acessar diretamente a próxima moeda na memória, o que pode ser mais eficiente.
 Sua tarefa é criar um programa que simule o cálculo da pontuação total de um nível usando aritmética de ponteiros para percorrer um vetor de moedas coletadas.*
