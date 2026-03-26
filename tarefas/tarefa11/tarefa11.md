@@ -40,4 +40,4 @@ Imprima o Estado Final: Mostre na tela a quantidade de cada munição após o us
 *Granadas: 4* <br>
 *Foguetes: 1* <br>
     
-📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/914a4a3db71c690e649c8a0ae33a55b59a1a82e0/tarefas/tarefa11/tarefa11.c)
+📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/53b4071d5355a2abf48751dff512b584c6eef011/tarefas/tarefa11/tarefa11.c)
