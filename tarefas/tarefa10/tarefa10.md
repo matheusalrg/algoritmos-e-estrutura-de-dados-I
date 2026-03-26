@@ -10,7 +10,7 @@
   </tr>
 </table>
 
-## ❗Coletando Moedas em Salas Secretas 🪙🔐
+## ❗Problema: Coletando Moedas em Salas Secretas 🪙🔐
 
   - **Contexto:** *Você está desenvolvendo um jogo de plataforma 2D. No nível atual, existem 3 salas secretas, e cada sala contém uma quantidade diferente de moedas para o jogador coletar. Para otimizar o acesso aos dados de cada sala, o motor do jogo utiliza um "gerenciador de salas" que consiste em um vetor de ponteiros. Cada ponteiro nesse vetor aponta para um conjunto de moedas de uma sala específica. Isso permite que o jogo acesse rapidamente as moedas da sala em que o jogador se encontra.*
 
