@@ -10,7 +10,7 @@
   </tr>
 </table>
 
-## ❗Posicionando um Power-up no Cenário 🎥
+## ❗Problema: Posicionando um Power-up no Cenário 🎥
 
   - **Contexto:** *Você é um programador de jogos criando um novo jogo de plataforma. Uma parte do seu trabalho é carregar o design dos níveis. Um nível é composto por uma fileira horizontal de blocos. Para simplificar, vamos representar os blocos com números inteiros: 0 significa um espaço vazio e 1 significa um bloco de plataforma sólido.
 Você precisa criar uma função que leia a configuração de uma fileira de blocos do cenário. Depois que a fileira é lida, seu programa deve encontrar o primeiro bloco de plataforma (1) e substituí-lo por um bloco de "power-up", que será representado pelo número 2.
