@@ -29,17 +29,17 @@ Sua tarefa é criar um sistema que gerencie esse inventário usando um vetor de 
 
   - **Imprima o Estado Inicial:** Mostre na tela a quantidade de cada munição antes do uso. A saída deve ser:
 
-  - **Inventario Inicial:**
-Balas: 30
-Granadas: 5
-Foguetes: 2
+  - **Inventario Inicial:** <br>
+Balas: 30 <br>
+Granadas: 5 <br>
+Foguetes: 2 <br>
 
   - **Simule o Uso com Aritmética de Ponteiros:** Crie um laço de repetição (for) que percorra o inventario. Dentro do laço, use aritmética de ponteiros e o operador de indireção (*) para decrementar em 1 a quantidade atual (o primeiro elemento) de cada tipo de munição.
 Imprima o Estado Final: Mostre na tela a quantidade de cada munição após o uso, para confirmar que a alteração foi bem-sucedida. A saída deve ser:
 
-  - **Inventario Apos o Uso:**
-Balas: 29
-Granadas: 4
-Foguetes: 1
+  - **Inventario Apos o Uso:** <br>
+Balas: 29 <br>
+Granadas: 4 <br>
+Foguetes: 1 <br>
     
-📌 **Resposta:** [💻 Ver solução em C]()
+📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/914a4a3db71c690e649c8a0ae33a55b59a1a82e0/tarefas/tarefa11/tarefa11.c)
