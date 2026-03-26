@@ -17,6 +17,7 @@ Você tem três tipos de munição, cada um com uma quantidade atual e uma capac
 1. Balas: 30 de 30
 2. Granadas: 5 de 5
 3. Foguetes: 2 de 2 <br>
+
 Sua tarefa é criar um sistema que gerencie esse inventário usando um vetor de ponteiros e, em seguida, simular o uso de uma unidade de cada tipo de munição usando aritmética de ponteiros.*
 
 ## 📋 Requisitos
