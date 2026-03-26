@@ -32,4 +32,4 @@
 
   - **Imprima o Resultado:** Após o laço, mostre na tela o total de moedas coletadas. A saída deve ser: "O jogador coletou um total de 4 moedas!"
     
-📌 **Resposta:** [💻 Ver solução em C]()
+📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/1f6ff4873b15fe0e3966200455591f1eef74b864/tarefas/tarefa08/tarefa08.c)
