@@ -32,4 +32,4 @@
   Se o nome for válido, imprima na tela: Nome valido! Bem-vindo ao jogo, [nome do jogador]!
   Se o nome for muito longo, imprima na tela: Nome muito longo! Por favor, escolha um nome com ate 15 caracteres.
   
-📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/547aa124a2d14c5c2cee5fd2920128764b936dc8/tarefas/tarefa12/tarefa12.c)
+📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/01415184f6042f3a3c78700beacfe4b192b7d669/tarefas/tarefa12/tarefa12.c)
