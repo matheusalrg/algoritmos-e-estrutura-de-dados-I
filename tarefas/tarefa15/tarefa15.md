@@ -29,4 +29,4 @@
 
   - **Exibir Resultado:** Mostre na tela o nome completo e final do herói. A saída deve ser algo como: "O herói agora é conhecido como: [Nome] [Título]"
   
-📌 **Resposta:** [💻 Ver solução em C]()
+📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/7fbf47696485b007ef2015e14855fe9a50d0122b/tarefas/tarefa15/tarefa15.c)
