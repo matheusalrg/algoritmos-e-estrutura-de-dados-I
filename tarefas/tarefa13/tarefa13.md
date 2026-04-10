@@ -28,8 +28,8 @@
 
   - **Comparar as Palavras:** Use a função strcmp() dentro de uma estrutura if-else para comparar a palavra_secreta com a tentativa_jogador.
 
-  - **Imprimir o Resultado:**
-  Se as palavras forem iguais, imprima: A porta magica se abre!
+  - **Imprimir o Resultado:** <br>
+  Se as palavras forem iguais, imprima: A porta magica se abre! <br>
   Se as palavras forem diferentes, imprima: Nada acontece... Parece que a palavra esta incorreta.
   
 📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/3e61198de0eb3bd31f505014a777cc380bae5b33/tarefas/tarefa13/tarefa13.c)
