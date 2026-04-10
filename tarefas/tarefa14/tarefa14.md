@@ -10,7 +10,7 @@
   </tr>
 </table>
 
-## ❗Problema: O Diálogo do Final Boss 🚪🪄
+## ❗Problema: O Diálogo do Final Boss 🏁🥸
 
   - **Contexto:** *Em um jogo de plataforma, ao chegar na sala do chefe final, o chefe precisa dizer uma frase específica para o jogador. O motor do jogo possui uma variável para guardar a fala atual que será exibida na tela. Para cada evento do jogo (início da luta, jogador com pouca vida, chefe derrotado), uma frase diferente precisa ser carregada nessa variável de fala. Essa "carga" é, na verdade, uma cópia de uma string pré-definida para a variável que controla o diálogo na tela.*
 
