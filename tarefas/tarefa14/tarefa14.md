@@ -26,4 +26,4 @@
 
   - **Imprima o Diálogo Ativado:** Mostre na tela o novo conteúdo da caixa_dialogo para confirmar que a frase foi copiada. A saída deve ser: Chefe diz: Você nunca sairá daqui com vida!
   
-📌 **Resposta:** [💻 Ver solução em C]()
+📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/b9f11b6c0e5f0dc19ae075fd2987eb946650b977/tarefas/tarefa14/tarefa14.c)
