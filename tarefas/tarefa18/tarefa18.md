@@ -32,4 +32,4 @@
 
   - **Imprima o Resultado:** Mostre na tela a vida restante do inimigo após o ataque. A saída deve ser: "O jogador atacou! Vida restante do inimigo: 45"
   
-📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/0885757cc8aafed382ab643a15dbb048dd2b44b4/tarefas/tarefa18/tarefa18.c)
+📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/c28956a5e0bdd60e8441daed30aa334eddd1b9cc/tarefas/tarefa18/tarefa18.c)
