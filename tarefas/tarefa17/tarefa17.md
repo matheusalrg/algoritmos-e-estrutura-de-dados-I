@@ -18,13 +18,13 @@
 
   - **Definir o Mapa:** Crie uma matriz de inteiros 5x8 (5 linhas e 8 colunas) chamada mapa_fase1.
 
-  - **Inicializar o Mapa:** Preencha a matriz com os seguintes valores, que representam o design da fase:
-{
-    {0, 0, 0, 0, 0, 0, 0, 0},
-    {0, 0, 0, 0, 0, 0, 0, 0},
-    {1, 1, 0, 0, 2, 0, 1, 1},
-    {0, 0, 1, 1, 0, 1, 0, 0},
-    {1, 1, 1, 1, 2, 2, 1, 1}
+  - **Inicializar o Mapa:** Preencha a matriz com os seguintes valores, que representam o design da fase: <br>
+{ <br>
+    {0, 0, 0, 0, 0, 0, 0, 0}, <br>
+    {0, 0, 0, 0, 0, 0, 0, 0}, <br>
+    {1, 1, 0, 0, 2, 0, 1, 1}, <br>
+    {0, 0, 1, 1, 0, 1, 0, 0}, <br>
+    {1, 1, 1, 1, 2, 2, 1, 1} <br>
 }
 
   - **Encontrar os Espinhos:** Percorra toda a matriz mapa_fase1 usando laços for aninhados.
