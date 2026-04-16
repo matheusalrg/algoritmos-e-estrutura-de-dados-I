@@ -31,4 +31,4 @@
 
   - **Imprimir Coordenadas:** Para cada célula da matriz que contiver o valor 2 (representando um espinho), imprima uma mensagem na tela indicando sua localização (linha e coluna). A saída deve seguir o formato: "Espinho encontrado na linha X, coluna Y".
   
-📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/c28eb92519f2aae32b584d3197c8b212ae021834/tarefas/tarefa17/tarefa17.c)
+📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/739a36c4ee59a1d88a7506690853920028cd7284/tarefas/tarefa17/tarefa17.c)
