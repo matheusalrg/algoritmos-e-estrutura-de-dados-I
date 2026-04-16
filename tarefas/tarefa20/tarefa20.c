@@ -3,7 +3,7 @@
 #include <locale.h>
 
 int main() {
-    setlocale(LC_ALL, "pt_BR.UTF-8");
+    setlocale(LC_ALL, "Portuguese");
 
     // Ponteiro genérico para armazenar a duração do power-up
     void *ponteiro_duracao;
