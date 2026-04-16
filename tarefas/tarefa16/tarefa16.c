@@ -10,14 +10,14 @@ int main() {
     int encontrado = 0;
 
     // Preenchendo o inventário
-    printf("Digite os 5 itens do inventario:\n");
+    printf("Digite os 5 itens do inventário:\n");
     for (int i = 0; i < 5; i++) {
         printf("Item %d: ", i + 1);
         scanf("%19s", inventario[i]); // evita overflow
     }
 
     // Ler item necessário
-    printf("\nDigite o item necessario para abrir a porta: ");
+    printf("\nDigite o item necessário para abrir a porta: ");
     scanf("%19s", itemNecessario);
 
     // Verificar se o item está no inventário
@@ -28,11 +28,11 @@ int main() {
         }
     }
 
-    // Exibindo o resultado para o usuário
+    // Exibindo resultado para o usuário
     if (encontrado) {
         printf("Porta aberta!\n");
     } else {
-        printf("Voce nao tem o item necessario.\n");
+        printf("Você não tem o item necessário.\n");
     }
 
     return 0;
