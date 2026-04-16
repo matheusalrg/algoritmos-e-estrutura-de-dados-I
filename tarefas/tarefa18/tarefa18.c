@@ -3,7 +3,7 @@
 #include <locale.h>
 
 int main() {
-    setlocale(LC_ALL, "pt_BR.UTF-8");
+    setlocale(LC_ALL, "Portuguese");
 
     // Variável vida do inimigo usando ponteiro
     int *vida_inimigo;
