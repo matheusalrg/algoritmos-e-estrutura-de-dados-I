@@ -2,7 +2,7 @@
 #include <locale.h>
 
 int main() {
-    setlocale(LC_ALL, "pt_BR.UTF-8");
+    setlocale(LC_ALL, "Portuguese");
 
     // Definindo e inicializando o mapa
     int mapa_fase1[5][8] = {
