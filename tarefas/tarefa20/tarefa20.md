@@ -32,4 +32,4 @@
 
   - **Libere a Memória:** Ao final do programa, use a função free() para liberar a memória que você alocou. Isso é uma boa prática para evitar vazamentos de memória.
   
-📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/65ad314e8d68d179d9e7c5b0cece5baa6fe6201a/tarefas/tarefa20/tarefa20.c)
+📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/fbd896346e4d1e4d268ddefd1889f29e5dde5502/tarefas/tarefa20/tarefa20.c)
