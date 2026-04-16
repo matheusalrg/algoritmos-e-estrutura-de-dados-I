@@ -28,4 +28,4 @@
   Se o item necessário for encontrado no inventário, imprima na tela: Porta aberta!
   Se o item não for encontrado após verificar todos os espaços do inventário, imprima: Você não tem o item necessário.
   
-📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/6f83e123b3bf2f17a09e0b6bf2fd47fdab98ffe6/tarefas/tarefa16/tarefa16.c)
+📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/8554b0de33928d45cdc97a1925f1c7c640739de7/tarefas/tarefa16/tarefa16.c)
