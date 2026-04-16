@@ -3,30 +3,30 @@
 #include <locale.h>
 
 int main() {
-    setlocale(LC_ALL, "pt_BR.UTF-8");
+    setlocale(LC_ALL, "Portuguese");
 
-    // Ponteiro para armazenar a altura do salto duplo (inicialmente NULL)
-    float *ponteiro_altura_salto_duplo = NULL;
+    // Ponteiro genérico para armazenar a duração do power-up
+    void *ponteiro_duracao;
 
-    // Status inicial do jogador
-    printf("Jogador ainda nao possui o Salto Duplo.\n");
-
-    // Simulando a coleta da Pena Dourada (alocação de memória)
-    ponteiro_altura_salto_duplo = (float *) malloc(sizeof(float));
+    // Alocando memória para um número inteiro
+    ponteiro_duracao = malloc(sizeof(int));
 
     // Verificando se a alocação foi bem-sucedida
-    if (ponteiro_altura_salto_duplo != NULL) {
-
-        // Atribuindo valor à altura do salto duplo
-        *ponteiro_altura_salto_duplo = 15.5;
-
-        // Exibindo o novo status do jogador
-        printf("Pena Dourada coletada! Altura do Salto Duplo: %.2f\n", *ponteiro_altura_salto_duplo);
-
-        // Liberando a memória alocada
-        // Em um jogo real, isso seria feito quando o power-up não fosse mais necessário
-        free(ponteiro_altura_salto_duplo);
+    if (ponteiro_duracao == NULL) {
+        printf("Erro ao alocar memória para a duração do power-up.\n");
+        return 1;
     }
+
+    // Ativando o power-up com duração inicial de 10 segundos
+    *((int *) ponteiro_duracao) = 10;
+    printf("Power-up 'Super Salto' ativado! Duração: %d segundos.\n", *((int *) ponteiro_duracao));
+
+    // Simulando a passagem do tempo
+    *((int *) ponteiro_duracao) -= 3;
+    printf("3 segundos se passaram... Duração restante: %d segundos.\n", *((int *) ponteiro_duracao));
+
+    // Liberando a memória alocada
+    free(ponteiro_duracao);
 
     return 0;
 }
