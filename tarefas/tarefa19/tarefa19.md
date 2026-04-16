@@ -33,4 +33,4 @@ Para otimizar o uso da memória, vamos alocar o espaço para guardar o valor da 
 
   - **Liberar Memória (Boa Prática):** Ao final do bloco if, adicione a linha free(ponteiro_altura_salto_duplo); e um comentário explicando que, em um jogo real, essa linha seria usada para liberar a memória quando o power-up não fosse mais necessário.
   
-📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/7dfe32d9484c47249dec0a2b6677699dc7044e5f/tarefas/tarefa19/tarefa19.c)
+📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/ea90a334010013490a42165421ef8134afea284b/tarefas/tarefa19/tarefa19.c)
