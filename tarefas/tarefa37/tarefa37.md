@@ -24,7 +24,7 @@ int pontuacao;
   char nome[50]; <br>
   Uma variável do tipo Atributos chamada stats; <br>
   
-  **No programa principal (main):**
+  **No programa principal (main):** <br>
 -Crie uma variável do tipo Personagem chamada jogador. <br>
 -Peça ao usuário para digitar o nome do personagem e armazene-o em jogador.nome. <br>
 -Inicialize a vida do jogador em 100 e a pontuação em 0 (acessando através de jogador.stats). <br>
