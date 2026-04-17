@@ -41,4 +41,4 @@
 
   - **Impressão Final do Estado:** Após todas as simulações, imprima o estado final completo do herói (saúde, pontuação, posX, posY) na tela. Desta vez, todos os valores devem ser acessados e impressos apenas através do ponteiro ptrHeroi, utilizando o operador ->.
 
-📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-aI/blob/3c7333d22e22930eb288a33a8014316500218da6/tarefas/tarefa34/tarefa34.c)
+📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/d3183786625a1ad95995cec5416051f586ed1999/tarefas/tarefa34/tarefa34.c)
