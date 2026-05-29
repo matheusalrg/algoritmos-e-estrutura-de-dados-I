@@ -24,4 +24,4 @@
   - Ao final, imprima a contagem total de duplas próximas.
   - Lembre-se de liberar a memória alocada dinamicamente com **free()** antes de encerrar o programa.
 
-📌 **Resposta:** [💻 Ver solução em C]()
+📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/15a75773cb40b8329fef77160654fbf5ce3cbc78/tarefas/tarefa52/tarefa52.c)
