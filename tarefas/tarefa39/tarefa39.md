@@ -26,4 +26,4 @@
 - Imprima na tela o nome e o Nível de Ameaça apenas dos inimigos considerados "elite", ou seja, aqueles cujo Nível de Ameaça seja maior ou igual a 200.
 - Feche o arquivo corretamente ao final do programa.
 
-📌 **Resposta:** [💻 Ver solução em C]()
+📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/61389b5bf9a6da924b330b7ed4ab41e4d9fff1a5/tarefas/tarefa39/tarefa39.c)
