@@ -31,4 +31,4 @@
   Se o estado for PULANDO, imprima a mensagem: "O personagem está pulando no ar!" <br>
   Se o usuário digitar qualquer outro número, imprima: "Estado inválido!"
 
-📌 **Resposta:** [💻 Ver solução em C]()
+📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/86dc7da829be20bc7339fc1bc61c2000300276e6/tarefas/tarefa41/tarefa41.c)
