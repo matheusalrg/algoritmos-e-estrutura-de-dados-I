@@ -22,4 +22,4 @@
   - Utilize **fprintf** para escrever a mensagem final no arquivo.
   - Gerencie corretamente o ponteiro do arquivo para poder escrever após ter lido todo o seu conteúdo.
 
-📌 **Resposta:** [💻 Ver solução em C]()
+📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/69f86142d8575130768b7e4f13d7997e7cc29fff/tarefas/tarefa44/tarefa44.c)
