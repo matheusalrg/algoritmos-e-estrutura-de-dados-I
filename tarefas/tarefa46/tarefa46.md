@@ -29,4 +29,4 @@
   - O programa deve fechar o arquivo corretamente antes de terminar.
   - **Importante:** Para testar seu programa, você precisará de um arquivo profiles.dat. O código de resposta fornecido inclui um programa auxiliar (comentado) que você pode usar para criar este arquivo de teste antes de executar sua solução de leitura.
 
-📌 **Resposta:** [💻 Ver solução em C]()
+📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/74bd452a3f16b4b72d9ca6de8801d532bc383fca/tarefas/tarefa46/tarefa46.c)
