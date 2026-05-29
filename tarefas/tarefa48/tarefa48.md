@@ -28,4 +28,4 @@
   Lux, 530, 55
   Ashe, 590, 61
 
-📌 **Resposta:** [💻 Ver solução em C]()
+📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/cec29b24f98835c4c9741bbac9750e20a5abdadd/tarefas/tarefa48/tarefa48.c)
