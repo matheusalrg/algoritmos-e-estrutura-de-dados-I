@@ -30,4 +30,4 @@ Após ler os dados de todas as unidades para um vetor de estruturas, o programa 
   - Imprima o nome da unidade com o maior ATK na tela.
   - Libere a memória alocada dinamicamente antes de encerrar o programa.
 
-📌 **Resposta:** [💻 Ver solução em C]()
+📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/a1a231eddb8fb6ef71f58bc475ff8b23fc23e7da/tarefas/tarefa47/tarefa47.c)
