@@ -25,4 +25,4 @@
   - Utilize a função **fwrite()** para escrever a estrutura do personagem no arquivo.
   - O programa deve fechar o arquivo corretamente antes de terminar.
 
-📌 **Resposta:** [💻 Ver solução em C]()
+📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/1324125e11f0a90d328794fe1e1a3b09f8f61671/tarefas/tarefa45/tarefa45.c)
