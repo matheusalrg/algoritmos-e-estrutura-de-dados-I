@@ -23,4 +23,4 @@
   - **Exibição dos Dados:** Imprima na tela as configurações que foram carregadas, no formato: "Configuracoes carregadas:\nResolucao: [X]x[Y]\nVolume: %.1f\n".
   - Feche o arquivo corretamente ao final da operação.
 
-📌 **Resposta:** [💻 Ver solução em C]()
+📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/a05248b681a0d61e3d1725461bdff1bf1fd34570/tarefas/tarefa42/tarefa42.c)
