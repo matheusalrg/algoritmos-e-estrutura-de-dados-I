@@ -30,4 +30,4 @@
   Gargula 90 22
   - A saída esperada para o exemplo acima seria: Maior Ameaça: Lich, Vida: 200, Ataque: 50
     
-📌 **Resposta:** [💻 Ver solução em C]()
+📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/9704af7f9e2e91986db6d4933609752158b7f266/tarefas/tarefa43/tarefa43.c)
