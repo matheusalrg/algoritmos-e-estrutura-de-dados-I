@@ -27,4 +27,4 @@
   3. Sair 
   - Atualize a estrutura switch na função main para chamar a sua nova função mostrar quando a opção correspondente for selecionada.
 
-📌 **Resposta:** [💻 Ver solução em C]()
+📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/294af19bfb6116b987db01e3a2dc505ab83752af/tarefas/tarefa109/tarefa109.c)
