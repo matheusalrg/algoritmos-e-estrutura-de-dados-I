@@ -19,10 +19,10 @@
   - Defina uma **struct** para representar um **Item**, contendo um **id** (inteiro) e um **nome** (string).
   - Utilize uma lista encadeada para armazenar os itens do inventário.
   - Implemente um menu com as seguintes opções:
-  1 - Inserir item no início (para itens comuns).
-  2 - Inserir item no fim (para itens comuns).
-  3 - Inserir catalisador após um fragmento (o foco da tarefa).
-  4 - Mostrar inventário.
+  1 - Inserir item no início (para itens comuns). <br>
+  2 - Inserir item no fim (para itens comuns). <br>
+  3 - Inserir catalisador após um fragmento (o foco da tarefa). <br>
+  4 - Mostrar inventário. <br>
   5 - Sair.
   - Para a opção 3, o programa deve primeiro solicitar os dados do novo item (catalisador) e, em seguida, pedir o id do fragmento após o qual o catalisador deve ser inserido.
   - Se o id do fragmento não for encontrado na lista, o programa deve informar ao usuário que a inserção não foi possível e não deve adicionar o catalisador ao inventário.
