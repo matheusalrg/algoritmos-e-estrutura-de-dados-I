@@ -4,7 +4,7 @@
       <img src="https://raw.githubusercontent.com/matheusalrg/assets/main/HelloWorld.gif" width="180">
     </td>
     <td valign="top">
-      <h2>📝 Tarefa 78 </h2>
+      <h2>📝 Tarefa 106 </h2>
       <p>Sua tarefa final nesta saga é implementar a funcionalidade de salvar a pilha de comandos do Arcanista em um arquivo binário. Isso garantirá que a sequência de feitiços possa ser armazenada permanentemente no disco.</p>
     </td>
   </tr>
