@@ -30,4 +30,4 @@
   -A etapa a ser deletada está no meio da lista (caso geral). <br>
   -A etapa de referência informada não existe na lista.
 
-📌 **Resposta:** [💻 Ver solução em C]()
+📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/blob/c4aa21a8e9d9aa6119cbd36e33b78d24a9e2f8d3/tarefas/tarefa91/tarefa91.c)
