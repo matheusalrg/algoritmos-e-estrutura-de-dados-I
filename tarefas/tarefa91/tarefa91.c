@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <locale.h>
 
+// --- ESTRUTURAS ---
 typedef struct {
     int id;
     char descricao[100];
@@ -17,65 +17,145 @@ typedef struct {
     No *inicio;
 } Lista;
 
-// Inicializa a lista
-void inicializarLista(Lista *lista) {
-    lista->inicio = NULL;
+// --- PROTÓTIPOS ---
+void menu();
+void inserir_fim(Lista *lista, Etapa e);
+void mostrar(Lista lista);
+void deletar_antes(Lista *lista, int id_ref);
+
+// --- FUNÇÃO PRINCIPAL ---
+int main() {
+    Lista lista;
+    lista.inicio = NULL;
+    int op, id_ref;
+    Etapa e;
+
+    do {
+        menu();
+        scanf("%d", &op);
+        getchar();
+
+        switch(op) {
+
+            case 1:
+                printf("\nDigite o ID da etapa: ");
+                scanf("%d", &e.id);
+                getchar();
+
+                printf("Digite a descricao da etapa: ");
+                fgets(e.descricao, sizeof(e.descricao), stdin);
+                e.descricao[strcspn(e.descricao, "\n")] = '\0';
+
+                inserir_fim(&lista, e);
+                break;
+
+            case 2:
+                mostrar(lista);
+                break;
+
+            case 3:
+                printf("\nInforme o ID da etapa de referencia: ");
+                scanf("%d", &id_ref);
+                deletar_antes(&lista, id_ref);
+                break;
+
+            case 4:
+                printf("\nFinalizando o programa...\n");
+                break;
+
+            default:
+                printf("\nOpcao invalida!\n");
+        }
+
+    } while(op != 4);
+
+    // Libera a memória
+    No *atual = lista.inicio;
+    while (atual != NULL) {
+        No *temp = atual;
+        atual = atual->prox;
+        free(temp);
+    }
+
+    return 0;
 }
 
-// Inserir no fim
-void inserirFim(Lista *lista, Etapa etapa) {
+// ---------------- MENU ----------------
+
+void menu() {
+    printf("\n========== GERENCIADOR DE MISSAO ==========\n");
+    printf("1 - Inserir etapa no fim\n");
+    printf("2 - Mostrar etapas\n");
+    printf("3 - Deletar etapa ANTES de um ID\n");
+    printf("4 - Sair\n");
+    printf("Escolha uma opcao: ");
+}
+
+// ------------ INSERIR NO FIM ------------
+
+void inserir_fim(Lista *lista, Etapa e) {
+
     No *novo = (No *)malloc(sizeof(No));
 
     if (novo == NULL) {
-        printf("Erro de alocação!\n");
+        printf("Erro de alocacao de memoria!\n");
         return;
     }
 
-    novo->etapa = etapa;
+    novo->etapa = e;
     novo->prox = NULL;
 
     if (lista->inicio == NULL) {
         lista->inicio = novo;
-        return;
+    } else {
+
+        No *aux = lista->inicio;
+
+        while (aux->prox != NULL) {
+            aux = aux->prox;
+        }
+
+        aux->prox = novo;
     }
 
-    No *aux = lista->inicio;
-
-    while (aux->prox != NULL)
-        aux = aux->prox;
-
-    aux->prox = novo;
+    printf("Etapa inserida com sucesso!\n");
 }
 
-// Mostrar lista
-void mostrarLista(Lista *lista) {
-    if (lista->inicio == NULL) {
-        printf("\nMissão vazia!\n");
+// ------------ MOSTRAR LISTA ------------
+
+void mostrar(Lista lista) {
+
+    if (lista.inicio == NULL) {
+        printf("\nNenhuma etapa cadastrada.\n");
         return;
     }
 
-    No *aux = lista->inicio;
+    printf("\n===== ETAPAS DA MISSAO =====\n");
 
-    printf("\n===== ETAPAS DA MISSÃO =====\n");
+    No *aux = lista.inicio;
 
     while (aux != NULL) {
+
         printf("ID: %d\n", aux->etapa.id);
-        printf("Descrição: %s\n\n", aux->etapa.descricao);
+        printf("Descricao: %s\n\n", aux->etapa.descricao);
+
         aux = aux->prox;
     }
 }
 
-// Deletar o nó ANTES de um ID
-void deletarAntes(Lista *lista, int id) {
+// -------- DELETAR ANTES DE UM ID --------
 
+void deletar_antes(Lista *lista, int id_ref) {
+
+    // Caso 1: lista vazia
     if (lista->inicio == NULL) {
-        printf("\nLista vazia!\n");
+        printf("\nA lista esta vazia!\n");
         return;
     }
 
-    // Referência é o primeiro nó
-    if (lista->inicio->etapa.id == id) {
-        printf("\nA etapa informada é a primeira. Não existe etapa anterior.\n");
+    // Caso 2: referência é o primeiro nó
+    if (lista->inicio->etapa.id == id_ref) {
+        printf("\nNao existe etapa antes da primeira.\n");
         return;
     }
 
@@ -83,104 +163,31 @@ void deletarAntes(Lista *lista, int id) {
     No *atual = lista->inicio;
     No *referencia = lista->inicio->prox;
 
-    while (referencia != NULL && referencia->etapa.id != id) {
+    // Procura o ID de referência
+    while (referencia != NULL && referencia->etapa.id != id_ref) {
         anterior = atual;
         atual = referencia;
         referencia = referencia->prox;
     }
 
+    // Caso 5: ID não encontrado
     if (referencia == NULL) {
-        printf("\nID não encontrado!\n");
+        printf("\nEtapa de referencia nao encontrada.\n");
         return;
     }
 
-    // Caso a etapa a remover seja a primeira
+    // Caso 3: remover o primeiro nó
     if (anterior == NULL) {
         lista->inicio = referencia;
-    } else {
+    }
+    // Caso 4: remover um nó do meio
+    else {
         anterior->prox = referencia;
     }
 
-    printf("\nEtapa removida:\n");
+    printf("\nEtapa removida com sucesso!\n");
     printf("ID: %d\n", atual->etapa.id);
-    printf("Descrição: %s\n", atual->etapa.descricao);
+    printf("Descricao: %s\n", atual->etapa.descricao);
 
     free(atual);
-}
-
-// Liberar memória
-void liberarLista(Lista *lista) {
-    No *aux = lista->inicio;
-
-    while (aux != NULL) {
-        No *temp = aux;
-        aux = aux->prox;
-        free(temp);
-    }
-
-    lista->inicio = NULL;
-}
-
-int main() {
-    setlocale(LC_ALL, "");
-
-    Lista lista;
-    inicializarLista(&lista);
-
-    int opcao;
-
-    do {
-        printf("\n===== GERENCIADOR DE MISSÕES =====\n");
-        printf("1 - Inserir etapa no fim\n");
-        printf("2 - Mostrar etapas\n");
-        printf("3 - Deletar etapa ANTES de um ID\n");
-        printf("4 - Sair\n");
-        printf("Escolha: ");
-        scanf("%d", &opcao);
-        getchar();
-
-        switch (opcao) {
-
-        case 1: {
-            Etapa e;
-
-            printf("ID: ");
-            scanf("%d", &e.id);
-            getchar();
-
-            printf("Descrição: ");
-            fgets(e.descricao, sizeof(e.descricao), stdin);
-            e.descricao[strcspn(e.descricao, "\n")] = '\0';
-
-            inserirFim(&lista, e);
-            break;
-        }
-
-        case 2:
-            mostrarLista(&lista);
-            break;
-
-        case 3: {
-            int id;
-
-            printf("Informe o ID de referência: ");
-            scanf("%d", &id);
-
-            deletarAntes(&lista, id);
-            break;
-        }
-
-        case 4:
-            printf("\nEncerrando...\n");
-            break;
-
-        default:
-            printf("\nOpção inválida!\n");
-        }
-
-    } while (opcao != 4);
-
-    liberarLista(&lista);
-
-    return 0;
 }
