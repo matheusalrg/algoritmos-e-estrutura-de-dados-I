@@ -28,4 +28,4 @@ No arquivo heroi.h (a interface), você deve:
 -Incluir o cabeçalho heroi/heroi.h.
 -Conter apenas a lógica principal: ler a quantidade de heróis, chamar as funções do módulo heroi para criar o vetor, preenchê-lo com dados e imprimi-lo na tela.
 
-📌 **Resposta:** [💻 Ver solução em C]([https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/tree/048b98ad6bb5504dba54a2900ad24734d368397d/tarefas/tarefa78](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/tree/a7af8c0b1258a3e6ff9374629eb6cf957bf5ebd4/tarefas/tarefa79))
+📌 **Resposta:** [💻 Ver solução em C](https://github.com/matheusalrg/algoritmos-e-estrutura-de-dados-I/tree/a7af8c0b1258a3e6ff9374629eb6cf957bf5ebd4/tarefas/tarefa79)
