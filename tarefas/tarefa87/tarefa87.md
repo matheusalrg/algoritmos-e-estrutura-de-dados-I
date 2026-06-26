@@ -14,7 +14,7 @@
 
   - **Contexto:** *Em jogos multiplayer online, quando um jogador decide entrar em uma partida, ele é colocado em uma fila de matchmaking. O sistema então forma as partidas pegando os jogadores que estão há mais tempo na fila, ou seja, os primeiros que entraram. Este comportamento é classicamente conhecido como 'primeiro a entrar, primeiro a sair' (FIFO - First-In, First-Out).*
 <br>
-- *Uma lista encadeada é uma estrutura de dados perfeita para implementar essa fila, onde adicionar um novo jogador ao final da fila corresponde a uma inserção no fim, e remover um jogador para colocá-lo em uma partida corresponde a deletar o nó do início da lista.*
+  - *Uma lista encadeada é uma estrutura de dados perfeita para implementar essa fila, onde adicionar um novo jogador ao final da fila corresponde a uma inserção no fim, e remover um jogador para colocá-lo em uma partida corresponde a deletar o nó do início da lista.*
 
 ## 📋 Requisitos
 
