@@ -7,7 +7,9 @@
       <h2>📝 Tarefa 82 </h2>
       <p>Crie um programa em C que simule o gerenciamento deste grupo de aventureiros. O programa deve apresentar um menu com as seguintes opções:
   - Adicionar Aventureiro: Solicita o ID (um número inteiro) e o nome do novo aventureiro. Este aventureiro deve ser adicionado no início da lista (do grupo).
+        
   - Mostrar Grupo: Exibe a lista de todos os aventureiros atualmente no grupo, na ordem em que estão (o mais recente primeiro).
+    
   - Sair: Encerra o programa.</p>
     </td>
   </tr>
