@@ -18,7 +18,7 @@
 
   - Defina uma **struct** para representar um **Item**, contendo um **id** (inteiro) e um **nome** (string).
   - Utilize uma lista encadeada para armazenar os itens do inventário.
-  - Implemente um menu com as seguintes opções:
+  - Implemente um menu com as seguintes opções: <br>
   1 - Inserir item no início (para itens comuns). <br>
   2 - Inserir item no fim (para itens comuns). <br>
   3 - Inserir catalisador após um fragmento (o foco da tarefa). <br>
